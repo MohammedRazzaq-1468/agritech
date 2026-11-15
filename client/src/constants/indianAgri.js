@@ -1,0 +1,10 @@
+export {
+  INDIAN_STATES,
+  SOIL_TYPES,
+  SEASONS,
+  CROP_CATEGORIES,
+  IRRIGATION_METHODS,
+  WATER_AVAILABILITY_LEVELS,
+  STATE_COORDINATES
+} from '../../../server/src/constants/indianAgri.js';
+

@@ -1,0 +1,28 @@
+{
+  "name": "agrismart-ai",
+  "version": "1.0.0",
+  "description": "AgriSmart AI - Intelligent Agriculture Crop Advisory Assistant",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "node -e \"console.log('Use separate terminals: npm run dev:server and npm run dev:client')\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm start",
+    "test:server": "cd server && npm test",
+    "db:migrate": "npm --prefix server run db:migrate"
+  },
+  "keywords": [
+    "agritech",
+    "crop-advisory",
+    "gemini-ai",
+    "precision-farming",
+    "plant-pathology",
+    "weather-advisory",
+    "soil-nutrient",
+    "supabase"
+  ],
+  "author": "AgriSmart AI Engineering Team",
+  "license": "MIT"
+}
